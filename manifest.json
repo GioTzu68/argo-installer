@@ -1,0 +1,13 @@
+{
+  "name": "ARGO",
+  "version": "0.3.3",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        { "path": "firmware/argo-s3-v0.3.3.bin", "offset": 0 }
+      ]
+    }
+  ]
+}
